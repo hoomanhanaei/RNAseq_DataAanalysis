@@ -1,0 +1,10 @@
+name: tophat2
+
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+
+dependencies:
+  - tophat2
+  - bowtie2
