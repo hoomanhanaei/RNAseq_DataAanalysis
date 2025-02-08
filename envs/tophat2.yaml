@@ -1,4 +1,4 @@
-name: tophat2
+name: tophat2_env
 
 channels:
   - bioconda
@@ -6,5 +6,4 @@ channels:
   - defaults
 
 dependencies:
-  - tophat2
-  - bowtie2
+  - tophat
