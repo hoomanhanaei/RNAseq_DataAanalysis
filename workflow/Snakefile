@@ -25,7 +25,7 @@ gtf = config['ref']['annotation']
 
 rule all:
     input:
-        expand(f"{config['out']['out_dir']}/index_genome.{{i}}.bt2", i=config["index_files"])
+        ancient(expand(f"{config['out']['out_dir']}/index_genome.{{i}}.bt2", i=config["index_files"]))
         # expand(f"{output_dir}/{{sample}}_aligned.bam", sample=samples)
 
 # include: "rules/all.smk"
