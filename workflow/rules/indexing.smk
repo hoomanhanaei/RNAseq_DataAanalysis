@@ -3,13 +3,13 @@ rule index:
         ref = config["ref"]["ref_fasta"]
     
     output:
-        expand(f"{config['out']['out_dir']}/index_genome.{{i}}.bt2", i=config["index_files"])
+        expand(f"{config['out']['out_dir']}/genome_index.{{i}}.bt2", i=config["index_files"])
     
     conda:
         "../envs/bowtie2.yaml"
     
     params:
-        prefix = f"{config['out']['out_dir']}/index_genome",
+        prefix = f"{config['out']['out_dir']}/genome_index",
         bmax = config["bowtie2_bmax"]
     
     threads: 1
