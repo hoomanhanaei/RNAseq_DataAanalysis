@@ -23,11 +23,11 @@ This project aims to provide an easy-to-use Snakemake pipeline, ensuring that it
 ---
 ## Workflow
 
-- ### Indexing:
+  ### Indexing
 
   - **Bowtie2:**
 
-- **Alignment Tools:**
+  ### Alignment
 
   - **TopHat2** [^2]
 
