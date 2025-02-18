@@ -3,9 +3,8 @@
 - [Introduction](#introduction)
 - [Objectives](#objectives)
 - [Workflow](#workflow)
-  - [Indexing Tools](#Indexing)
-  - [](#)
-- [](#)
+  - [Indexing](#Indexing)
+  - [Alignment](#Alignment)
 - [Conclusion](#conclusion)
 - [References](#references)
 
