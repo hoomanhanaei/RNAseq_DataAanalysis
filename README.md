@@ -29,15 +29,21 @@ This project aims to provide an easy-to-use Snakemake pipeline, ensuring that it
 - **Alignment:**
 
   - **TopHat2** [^2]
-  - TopHat2 produces number of files in its tophat_out/ output directory. Some of the generated files are:
+    TopHat2 produces number of files in its tophat_out/ output directory. Some of the generated files are:
 
-    **accepted_hits.bam:** list of read alignments in BAM format
-    **unmapped.bam:** list of unmapped reads in BAM format
-    **junctions.bed:** BED track of reported junctions
-    **insertions.bed:** BED track of insertions reported by TopHat
-    **deletions.bed:** BED track of deletions reported by TopHat
-    **prep_reads.info:** statistics about the input sequencing data (min/max read length, number of reads)
-    **align_summary.txt:** summary of the alignment counts (number of mapped reads, overall read mapping rate)
+    **accepted_hits.bam:** list of read alignments in BAM format.
+
+    **unmapped.bam:** list of unmapped reads in BAM format.
+
+    **junctions.bed:** BED track of reported junctions.
+
+    **insertions.bed:** BED track of insertions reported by TopHat.
+
+    **deletions.bed:** BED track of deletions reported by TopHat.
+
+    **prep_reads.info:** statistics about the input sequencing data (min/max read length, number of reads).
+
+    **align_summary.txt:** summary of the alignment counts (number of mapped reads, overall read mapping rate).
 
 
 ## References
