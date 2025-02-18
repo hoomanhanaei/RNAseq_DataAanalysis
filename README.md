@@ -3,7 +3,7 @@
 - [Introduction](#introduction)
 - [Objectives](#objectives)
 - [Workflow](#workflow)
-  - [Indexing Tools](#Indexing_Tools)
+  - [Indexing Tools](#Indexing)
   - [](#)
 - [](#)
 - [Conclusion](#conclusion)
@@ -23,7 +23,7 @@ This project aims to provide an easy-to-use Snakemake pipeline, ensuring that it
 ---
 ## Workflow
 
-- ### Indexing Tools:
+- ### Indexing:
 
   - **Bowtie2:**
 
