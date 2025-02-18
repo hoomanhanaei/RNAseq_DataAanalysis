@@ -2,7 +2,7 @@
 
 - [Introduction](#introduction)
 - [Objectives](#objectives)
-- [Analysis Pipeline](#analysis-pipeline)
+- [Analysis Pipeline](#workflow)
   - [](#)
   - [](#)
 - [](#)
@@ -20,6 +20,9 @@ This project aims to provide an easy-to-use Snakemake pipeline, ensuring that it
 - **Compare with other publications**: In addition to replicating the original work, compare their methods and tools with those used in other recent publications.
 - **Provide an updated Snakemake pipeline**: Develop a fully automated and easy-to-use Snakemake workflow to run the entire analysis from raw data to final results with minimal setup.
 - **Ensure modern compatibility**: Ensure that the pipeline uses up-to-date tools and methods that are efficient and well-supported in 2025, replacing deprecated tools where necessary.
+---
+## Workflow
+
 
 ## References
 
