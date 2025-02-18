@@ -2,7 +2,7 @@
 
 - [Introduction](#introduction)
 - [Objectives](#objectives)
-- [Analysis Pipeline](#workflow)
+- [Workflow](#workflow)
   - [](#)
   - [](#)
 - [](#)
@@ -16,14 +16,30 @@ This project aims to provide an easy-to-use Snakemake pipeline, ensuring that it
 
 ## Objectives
 
-- **Replicate the original analysis**: Recreate the RNA-seq data analysis pipeline outlined by Koch et al. and evaluate whether the tools and methods used in 2018 are still valid in 2025.
-- **Compare with other publications**: In addition to replicating the original work, compare their methods and tools with those used in other recent publications.
-- **Provide an updated Snakemake pipeline**: Develop a fully automated and easy-to-use Snakemake workflow to run the entire analysis from raw data to final results with minimal setup.
-- **Ensure modern compatibility**: Ensure that the pipeline uses up-to-date tools and methods that are efficient and well-supported in 2025, replacing deprecated tools where necessary.
+- **Replicate the original analysis:** Recreate the RNA-seq data analysis pipeline outlined by Koch et al. and evaluate whether the tools and methods used in 2018 are still valid in 2025.
+- **Compare with other publications:** In addition to replicating the original work, compare their methods and tools with those used in other recent publications.
+- **Provide an updated Snakemake pipeline:** Develop a fully automated and easy-to-use Snakemake workflow to run the entire analysis from raw data to final results with minimal setup.
+- **Ensure modern compatibility:** Ensure that the pipeline uses up-to-date tools and methods that are efficient and well-supported in 2025, replacing deprecated tools where necessary.
 ---
 ## Workflow
+
+- **Indexing:**
+
+- **Alignment:**
+
+- TopHat2 Output [^2]
+  - TopHat2 produces number of files in its tophat_out/ output directory. Some of the generated files are:
+
+    **accepted_hits.bam:** list of read alignments in BAM format
+    **unmapped.bam:** list of unmapped reads in BAM format
+    **junctions.bed:** BED track of reported junctions
+    **insertions.bed:** BED track of insertions reported by TopHat
+    **deletions.bed:** BED track of deletions reported by TopHat
+    **prep_reads.info:** statistics about the input sequencing data (min/max read length, number of reads)
+    **align_summary.txt:** summary of the alignment counts (number of mapped reads, overall read mapping rate)
 
 
 ## References
 
 [^1]: Koch CM, Chiu SF, Akbarpour M, Bharat A, Ridge KM, Bartom ET, Winter DR. A Beginner's Guide to Analysis of RNA Sequencing Data. Am J Respir Cell Mol Biol. 2018 Aug;59(2):145-157. doi: 10.1165/rcmb.2017-0430TR. PMID: 29624415; PMCID: PMC6096346.
+[^2]: https://hcc.unl.edu/docs/applications/app_specific/bioinformatics_tools/alignment_tools/tophat_tophat2/#:~:text=TopHat2%20Output,-TopHat2%20produces%20number&text=Some%20of%20the%20generated%20files,unmapped.
