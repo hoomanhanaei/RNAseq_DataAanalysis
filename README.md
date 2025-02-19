@@ -24,17 +24,22 @@ This project aims to provide an easy-to-use Snakemake pipeline, ensuring that it
 ## Workflow
 
 ### Preprocessing
-  - **PreAlignment-QC**:
+
+  - **PreAlignment-QC:**
+
     - **FastQC**
     - **MultiQC**
+  
+  - **Trimming - Filtering:**
 
-  ### Trimming
+    - **Trimmomatic**
+    - **Fastp**
 
-  ### Indexing
+### Indexing
 
   - **Bowtie2:**
 
-  ### Alignment
+### Alignment
 
   - **TopHat2** [^2]
 
