@@ -26,6 +26,8 @@ This project aims to provide an easy-to-use Snakemake pipeline, ensuring that it
   ### Quality-Control
 
   - **FastQC**
+  
+  - **MultiQC**
 
   ### Indexing
 
