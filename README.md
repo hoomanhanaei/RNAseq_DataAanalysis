@@ -23,13 +23,10 @@ This project aims to provide an easy-to-use Snakemake pipeline, ensuring that it
 ---
 ## Workflow
 
-### <span style="color:blue;">Preprocessing</span>
-
-#### PreAlignment-QC
-
-  - **FastQC**
-
-  - **MultiQC**
+### Preprocessing
+  - **PreAlignment-QC**:
+    - **FastQC**
+    - **MultiQC**
 
   ### Trimming
 
