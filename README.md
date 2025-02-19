@@ -3,7 +3,7 @@
 - [Introduction](#introduction)
 - [Objectives](#objectives)
 - [Workflow](#workflow)
-  - [Quality Control](#Quality-Control)
+  - [Quality Control](#PreAlignment-QC)
   - [Indexing](#Indexing)
   - [Alignment](#Alignment)
 - [Conclusion](#conclusion)
@@ -23,10 +23,10 @@ This project aims to provide an easy-to-use Snakemake pipeline, ensuring that it
 ---
 ## Workflow
 
-  ### Quality-Control
+  ### PreAlignment-QC
 
   - **FastQC**
-  
+
   - **MultiQC**
 
   ### Indexing
