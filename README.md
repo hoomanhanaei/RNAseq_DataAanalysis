@@ -3,6 +3,7 @@
 - [Introduction](#introduction)
 - [Objectives](#objectives)
 - [Workflow](#workflow)
+  - [Quality Control](#Quality-Control)
   - [Indexing](#Indexing)
   - [Alignment](#Alignment)
 - [Conclusion](#conclusion)
@@ -21,6 +22,10 @@ This project aims to provide an easy-to-use Snakemake pipeline, ensuring that it
 - **Ensure modern compatibility:** Ensure that the pipeline uses up-to-date tools and methods that are efficient and well-supported in 2025, replacing deprecated tools where necessary.
 ---
 ## Workflow
+
+  ### Quality-Control
+
+  - **FastQC**
 
   ### Indexing
 
