@@ -3,7 +3,7 @@
 - [Introduction](#introduction)
 - [Objectives](#objectives)
 - [Workflow](#workflow)
-  - [Quality Control](#PreAlignment-QC)
+  - [Pre Alignment QC](#PreAlignment-QC)
   - [Indexing](#Indexing)
   - [Alignment](#Alignment)
 - [Conclusion](#conclusion)
