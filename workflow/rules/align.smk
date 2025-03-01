@@ -11,7 +11,7 @@ rule align:
         "../envs/tophat2.yaml"
     
     params:
-        out_dir = f"{config['out']['out_dir']}/tophat2_output"
+        out_dir = f"{config['out']['out_dir']}/tophat2_output/{{sample}}"
 
     shell:
         """
