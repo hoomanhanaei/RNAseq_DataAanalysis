@@ -35,30 +35,30 @@ This project aims to provide an easy-to-use Snakemake pipeline, ensuring that it
     - **Trimmomatic**
     - **Fastp**
 
-### Indexing
+  - **Indexing**
 
-  - **Bowtie2:**
+    - **Bowtie2:**
 
-### Alignment
+  - Alignment
 
-  - **TopHat2** [^2]
+    - **TopHat2** [^2]
 
-    TopHat2 produces number of files in its tophat_out/ output directory. Some of the generated files are:
-    ```
-    accepted_hits.bam: list of read alignments in BAM format.
+      TopHat2 produces number of files in its tophat_out/ output directory. Some of the generated files are:
+      ```
+      accepted_hits.bam: list of read alignments in BAM format.
 
-    unmapped.bam: list of unmapped reads in BAM format.
+      unmapped.bam: list of unmapped reads in BAM format.
 
-    junctions.bed: BED track of reported junctions.
+      junctions.bed: BED track of reported junctions.
 
-    insertions.bed: BED track of insertions reported by TopHat.
+      insertions.bed: BED track of insertions reported by TopHat.
 
-    deletions.bed: BED track of deletions reported by TopHat.
+      deletions.bed: BED track of deletions reported by TopHat.
 
-    prep_reads.info: statistics about the input sequencing data (min/max read length, number of reads).
+      prep_reads.info: statistics about the input sequencing data (min/max read length, number of reads).
 
-    align_summary.txt: summary of the alignment counts (number of mapped reads, overall read mapping rate).
-    ```
+      align_summary.txt: summary of the alignment counts (number of mapped reads, overall read mapping rate).
+      ```
 
 ## References
 [^1]: Koch CM, Chiu SF, Akbarpour M, Bharat A, Ridge KM, Bartom ET, Winter DR. A Beginner's Guide to Analysis of RNA Sequencing Data. Am J Respir Cell Mol Biol. 2018 Aug;59(2):145-157. doi: 10.1165/rcmb.2017-0430TR. PMID: 29624415; PMCID: PMC6096346.
