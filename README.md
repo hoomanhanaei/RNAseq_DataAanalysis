@@ -39,7 +39,7 @@ This project aims to provide an easy-to-use Snakemake pipeline, ensuring that it
 
     - **Bowtie2:**
 
-  - Alignment
+  - **Alignment**
 
     - **TopHat2** [^2]
 
