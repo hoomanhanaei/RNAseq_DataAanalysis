@@ -27,7 +27,10 @@ This project aims to provide an easy-to-use Snakemake pipeline, ensuring that it
 
   - **PreAlignment-QC:**
 
-    - **FastQC**
+    - **FastQC**[^3]
+    ```
+    FastQC will highlight any areas where this library looks unusual and where you should take a closer look. The program is not tied to any specific type of sequencing technique and can be used to look at libraries coming from a large number of different experiment types (Genomic Sequencing, ChIP-Seq, RNA-Seq, BS-Seq etc etc).
+    ```
     - **MultiQC**
   
   - **Trimming - Filtering:**
@@ -63,3 +66,4 @@ This project aims to provide an easy-to-use Snakemake pipeline, ensuring that it
 ## References
 [^1]: Koch CM, Chiu SF, Akbarpour M, Bharat A, Ridge KM, Bartom ET, Winter DR. A Beginner's Guide to Analysis of RNA Sequencing Data. Am J Respir Cell Mol Biol. 2018 Aug;59(2):145-157. doi: 10.1165/rcmb.2017-0430TR. PMID: 29624415; PMCID: PMC6096346.
 [^2]: https://hcc.unl.edu/docs/applications/app_specific/bioinformatics_tools/alignment_tools/tophat_tophat2/#:~:text=TopHat2%20Output,-TopHat2%20produces%20number&text=Some%20of%20the%20generated%20files,unmapped.
+[^3]: Andrews, Simon. Year. FastQC: A Quality Control Tool for High Throughput Sequence Data. Version [0.12.1]. GitHub. https://github.com/s-andrews/FastQC.
