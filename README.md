@@ -63,9 +63,11 @@ This project aims to provide an easy-to-use Snakemake pipeline, ensuring that it
 
       deletions.bed: BED track of deletions reported by TopHat.
 
-      prep_reads.info: statistics about the input sequencing data (min/max read length, number of reads).
+      prep_reads.info:
+      - statistics about the input sequencing data (min/max read length, number of reads).
 
-      align_summary.txt: summary of the alignment counts (number of mapped reads, overall read mapping rate).
+      align_summary.txt:
+      - summary of the alignment counts (number of mapped reads, overall read mapping rate).
       ```
 
 ## References
