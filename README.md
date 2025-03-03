@@ -27,9 +27,12 @@ This project aims to provide an easy-to-use Snakemake pipeline, ensuring that it
 
   - **PreAlignment-QC:**
 
-    - **FastQC**[^3]
+    - **FastQC** [^3]
     ```
-    FastQC will highlight any areas where this library looks unusual and where you should take a closer look. The program is not tied to any specific type of sequencing technique and can be used to look at libraries coming from a large number of different experiment types (Genomic Sequencing, ChIP-Seq, RNA-Seq, BS-Seq etc etc).
+    FastQC will highlight any areas where this library looks unusual and where you should take a closer look.
+    
+    The program is not tied to any specific type of sequencing technique and can be used to look at libraries\
+    coming from a large number of different experiment types (Genomic Sequencing, ChIP-Seq, RNA-Seq, BS-Seq etc etc).
     ```
     - **MultiQC**
   
@@ -65,5 +68,5 @@ This project aims to provide an easy-to-use Snakemake pipeline, ensuring that it
 
 ## References
 [^1]: Koch CM, Chiu SF, Akbarpour M, Bharat A, Ridge KM, Bartom ET, Winter DR. A Beginner's Guide to Analysis of RNA Sequencing Data. Am J Respir Cell Mol Biol. 2018 Aug;59(2):145-157. doi: 10.1165/rcmb.2017-0430TR. PMID: 29624415; PMCID: PMC6096346.
-[^2]: https://hcc.unl.edu/docs/applications/app_specific/bioinformatics_tools/alignment_tools/tophat_tophat2/#:~:text=TopHat2%20Output,-TopHat2%20produces%20number&text=Some%20of%20the%20generated%20files,unmapped.
+[^2]: Kim, D., Pertea, G., Trapnell, C., Pimentel, H., Kelley, R., & Salzberg, S. L. (2013). TopHat2: Accurate alignment of transcriptomes in the presence of insertions, deletions and gene fusions. Genome Biology, 14(4), R36. https://doi.org/10.1186/gb-2013-14-4-r36
 [^3]: Andrews, Simon. Year. FastQC: A Quality Control Tool for High Throughput Sequence Data. Version [0.12.1]. GitHub. https://github.com/s-andrews/FastQC.
