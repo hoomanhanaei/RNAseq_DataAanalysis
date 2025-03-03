@@ -32,8 +32,9 @@ This project aims to provide an easy-to-use Snakemake pipeline, ensuring that it
     - FastQC will highlight any areas where this library looks unusual and
     where you should take a closer look.
     
-    The program is not tied to any specific type of sequencing technique and can be used to look at libraries\
-    coming from a large number of different experiment types (Genomic Sequencing, ChIP-Seq, RNA-Seq, BS-Seq etc etc).
+    - The program is not tied to any specific type of sequencing technique and
+    can be used to look at libraries coming from a large number of different
+    experiment types (Genomic Sequencing, ChIP-Seq, RNA-Seq, BS-Seq etc etc).
     ```
     - **MultiQC**
   
