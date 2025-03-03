@@ -37,6 +37,7 @@ This project aims to provide an easy-to-use Snakemake pipeline, ensuring that it
     experiment types (Genomic Sequencing, ChIP-Seq, RNA-Seq, BS-Seq etc etc).
     ```
     - **MultiQC** [^4]
+    
       MultiQC is the standard in bioinformatics reporting
       ```
       - a tool to create a single report with interactive plots for
