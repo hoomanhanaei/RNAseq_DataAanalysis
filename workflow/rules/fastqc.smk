@@ -3,13 +3,16 @@ rule fastqc:
         fastq = f"{config['rnaseq']['raw_reads']}/{{sample}}.fastq"
     
     output:
-        "qc_reports/{sample}_fastqc.html",
-        "qc_reports/{sample}_fastqc.zip"
+        f"{config['out']['outdir']}/qc_reports/{{sample}}_fastqc.html",
+        f"{config['out']['outdir']}/qc_reports/{{sample}}_fastqc.zip"
     
     conda:
         "../envs/fastqc.yaml"
     
+    params:
+        outdir = f"{config['out']['outdir']}/qc_reports/"
+    
     shell:
         """
-        fastqc --outdir=qc_reports {input}
+        fastqc --outdir={params.outdir} {input}
         """
