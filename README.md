@@ -28,16 +28,15 @@ This project aims to provide an easy-to-use Snakemake pipeline, ensuring that it
   - **PreAlignment-QC:**
 
     - **FastQC** [^3]
-    ```
-    - FastQC will highlight any areas where this library looks unusual and
-    where you should take a closer look.
-    
+
+    highlights any areas where reads look unusual and requires a closer look.
+    ```    
     - The program is not tied to any specific type of sequencing technique and
     can be used to look at libraries coming from a large number of different
     experiment types (Genomic Sequencing, ChIP-Seq, RNA-Seq, BS-Seq etc etc).
     ```
     - **MultiQC** [^4]
-    
+
       MultiQC is the standard in bioinformatics reporting
       ```
       - a tool to create a single report with interactive plots for
